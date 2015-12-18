@@ -1,0 +1,159 @@
+#override body, #override p, #override h1, #override h2, #override h3, #override h4, #override h5, #override h6, #override a, #override div {
+	font-family: Roboto, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+/* line 1, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.class-image {
+  background-image: url(../img/ClassOf15.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  height: 40vw;
+  position: relative;
+}
+
+/* line 9, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.skinny-bar {
+  background-color: #ed1c24;
+  height: 3rem;
+  padding-top: 1rem;
+}
+
+/* line 15, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.under-bar {
+  background-color: #00b450;
+  padding-top: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+/* line 21, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.under-bar .button {
+  background: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+/* line 31, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.timeline {
+  padding-top: 4rem;
+}
+
+/* line 35, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.text-section {
+  padding: 2rem 0;
+}
+
+/* line 39, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.left-images img {
+  margin: 10px;
+}
+
+/* line 44, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.bottom-of-image {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 52, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.bottom-of-image h1 {
+  color: white;
+}
+
+.contain-to-grid {
+  width: 100%;
+  background: #333333;
+}
+
+.contain-to-grid .top-bar {
+	background: #333333;
+}
+
+.contain-to-grid .top-bar ul {
+	background: #333333;
+}
+
+/* line 123, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.top-bar-section ul li > a.apply-button {
+  background-color: #ffe600;
+  border-radius: 2px;
+  color: #333;
+}
+
+/* line 129, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.top-bar-section ul li > a.apply-button:hover {
+  background-color: #f6d20c;
+  border-radius: 2px;
+  color: #333;
+}
+
+/* line 135, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.navbar-logo {
+  max-height: 30px;
+}
+
+/* line 60, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.internship-details {
+  padding: 6rem 0;
+}
+/* line 63, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.internship-details img {
+  height: 100px;
+  padding-bottom: 10px;
+  opacity: .85;
+}
+
+.internship-details > div > div {
+  text-align: center;
+}
+
+.internship-details img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 156, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.nyc-section {
+  background-image: url(../img/Hopscotch.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  padding: 2rem 0;
+  color: white;
+}
+/* line 162, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.nyc-section h1, .nyc-section h2, .nyc-section h3, .nyc-section h4, .nyc-section h5, .nyc-section h6 {
+  color: white;
+  text-align: center;
+}
+/* line 167, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.nyc-section a {
+  color: white;
+  font-weight: bold;
+}
+/* line 170, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.nyc-section a:hover, .nyc-section a:active, .nyc-section a:visited {
+  color: white;
+}
+
+/* line 176, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.alumny-section {
+  padding: 4rem 0;
+}
+/* line 178, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+.alumny-section .alumny-image {
+  margin-top: .5rem;
+}
+
+/* line 345, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
+footer.footer {
+  text-align: center;
+  font-size: 40px;
+  background-color: #333333;
+  padding: 1rem 0;
+}
