@@ -1,5 +1,9 @@
-#override body, #override p, #override h1, #override h2, #override h3, #override h4, #override h5, #override h6, #override a, #override div {
+#override body, #override p, #override a, #override div {
 	font-family: Roboto, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+#override h1, #override h2, #override h3, #override h4, #override h5, #override h6 {
+  font-family: "Roboto Slab", Roboto, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 /* line 1, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
