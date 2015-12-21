@@ -56,11 +56,55 @@
       </div>
     </div>
     <div class="under-bar">Thank you for supporting hackNY!
-      <a href="stuff" class="button">$25</a>
-      <a href="stuff" class="button">$50</a>
-      <a href="stuff" class="button">$100</a>
-      <a href="stuff" class="button">$250</a>
-      <a href="stuff" class="button">Other Amount</a>
+      <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="bn" value="TipsandTricks_SP">
+        <input type="hidden" name="business" value="paypal@hackny.org">
+        <input type="hidden" name="page_style" value="hackNY_Classic">
+        <input type="hidden" name="rm" value="0">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="amount" value="25.0">
+        <input type="submit" class="button" src="http://hackny.org/a/wp-content/uploads/2015/11/donate-button-lc.png" name="submit" value="$25">
+      </form>
+      <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="bn" value="TipsandTricks_SP">
+        <input type="hidden" name="business" value="paypal@hackny.org">
+        <input type="hidden" name="page_style" value="hackNY_Classic">
+        <input type="hidden" name="rm" value="0">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="amount" value="50.0">
+        <input type="submit" class="button" src="http://hackny.org/a/wp-content/uploads/2015/11/donate-button-lc.png" name="submit" value="$50">
+      </form>
+      <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="bn" value="TipsandTricks_SP">
+        <input type="hidden" name="business" value="paypal@hackny.org">
+        <input type="hidden" name="page_style" value="hackNY_Classic">
+        <input type="hidden" name="rm" value="0">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="amount" value="100.0">
+        <input type="submit" class="button" src="http://hackny.org/a/wp-content/uploads/2015/11/donate-button-lc.png" name="submit" value="$100">
+      </form>
+      <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="bn" value="TipsandTricks_SP">
+        <input type="hidden" name="business" value="paypal@hackny.org">
+        <input type="hidden" name="page_style" value="hackNY_Classic">
+        <input type="hidden" name="rm" value="0">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="amount" value="250.0">
+        <input type="submit" class="button" src="http://hackny.org/a/wp-content/uploads/2015/11/donate-button-lc.png" name="submit" value="$250">
+      </form>
+      <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="bn" value="TipsandTricks_SP">
+        <input type="hidden" name="business" value="paypal@hackny.org">
+        <input type="hidden" name="page_style" value="hackNY_Classic">
+        <input type="hidden" name="rm" value="0">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" class="button" src="http://hackny.org/a/wp-content/uploads/2015/11/donate-button-lc.png" name="submit" value="Other Amount">
+      </form>
     </div>
     <div class="row about-row text-section">
       <div class="large-4 medium-4 columns left-images">
@@ -79,12 +123,12 @@
     <div class="nyc-section">
       <div class="row">
         <div class="large-6 medium-6 columns">
-          <h2>Inspiring Environment</h2>
+          <h3>Inspiring Environment</h3>
           <p>We love New York's tech scene for its community spirit and interdisciplinary nature. With so much to be inspired by, from NYC's architecture to its media, fashion, and creative industries, you'll quickly realize why we think Silicon Alley > Silicon Valley.</p>
           <p>All Fellows live together in provided housing in the heart of NYC, within walking distance of great food, parks, and many of our host startups. You'll spend many evenings exploring the city with your friends, and our AlumNY are always happy to offer their experience and recommendations.</p>
         </div>
         <div class="large-6 medium-6 columns">
-          <h2>Inspiring Speakers</h2>
+          <h3>Inspiring Speakers</h3>
           <p>Twice a week, Fellows gather at a local startup's offices for dinner and an informal talk by a New York tech luminary. Speakers include top CEOs, founders, technologists, tech experts in public service, VCs, and legal and media experts. Each talk is followed by plenty of time for questions and discussion.</p>
           <p>For a list of our Class of 2015 speakers and events, see our <a href="hackny.org/a/2015/08/looking-back-on-the-class-of-2015-fellowship/">blog post</a> looking back on last summer.</p>
         </div>

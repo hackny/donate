@@ -161,3 +161,11 @@ footer.footer {
   background-color: #333333;
   padding: 1rem 0;
 }
+
+.paypal-form {
+  display: inline-block;
+}
+
+input:focus {
+  outline: 0;
+}
