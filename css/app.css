@@ -4,7 +4,7 @@
 
 /* line 1, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
 .class-image {
-  background-image: url(../img/ClassOf15.jpg);
+  background-image: url(../img/DemoNightGroup.jpg);
   background-position: center;
   background-size: 100% auto;
   height: 40vw;
@@ -20,7 +20,7 @@
 
 /* line 15, /Users/hanne/Desktop/hackNY/ht2/app/assets/stylesheets/hackny.scss */
 .under-bar {
-  background-color: #00b450;
+  background-color: #cc0000;
   padding-top: 1rem;
   text-align: center;
   color: white;
